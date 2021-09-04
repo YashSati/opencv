@@ -1,8 +1,8 @@
 import cv2 as cv
 import numpy as np
 
-path = r"C:\Users\DELL\Desktop\Rubiks cube\INPUT\1.jpeg"
-filepath = r"C:\Users\DELL\Desktop\text.txt"
+path = r"INPUT\1.jpeg"
+filepath = r"OUTPUT\text.txt"
 file = open(filepath, 'w')
 matrix = {}
 
