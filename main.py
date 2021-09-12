@@ -104,7 +104,7 @@ img1 = cv.cvtColor(img1,cv.COLOR_BGR2HSV)
 for clrs in colors:
     img2 = getcolor(clrs,img1,img2)
 
-cv.imshow('OUTPUT',img2)
+#cv.imshow('OUTPUT',img2)
 
 for i in range(3):
     for j in range(3):
@@ -112,4 +112,4 @@ for i in range(3):
         file.write(text)
         print(text)
 
-cv.waitKey(0)
+#cv.waitKey(0)
